@@ -1,0 +1,22 @@
+{
+  "name": "tag-release-testing",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "go": "tsx src/index.ts"
+  },
+  "dependencies": {
+
+  },
+  "devDependencies": {
+    "@types/node": "^20.5.6",
+    "prettier": "3.0.2",
+    "typescript": "^5.2.2",
+    "tsx": "^3.14.0"
+  },
+  "author": "Torbjørn Holtmon",
+  "license": "MIT",
+  "pnpm": {
+    "ignore-workspace-root-check": true
+  }
+}
